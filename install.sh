@@ -11,9 +11,9 @@ sudo pacman -S install build-essential libncurses-dev bison flex libssl-dev libe
 
 # Download the kernel and necessary headers
 cd ~/Downloads
-wget http://neroreflex.duckdns.org/linux-neroreflex-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
-wget http://neroreflex.duckdns.org/linux-neroreflex-api-headers-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
-wget http://neroreflex.duckdns.org/linux-neroreflex-headers-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
+# wget http://neroreflex.duckdns.org/linux-neroreflex-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
+# wget http://neroreflex.duckdns.org/linux-neroreflex-api-headers-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
+# wget http://neroreflex.duckdns.org/linux-neroreflex-headers-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
 tar --zstd -xvf linux-neroreflex-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
 tar --zstd -xvf linux-neroreflex-api-headers-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
 tar --zstd -xvf linux-neroreflex-headers-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
