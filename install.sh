@@ -18,7 +18,7 @@ tar --zstd -xvf linux-neroreflex-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
 tar --zstd -xvf linux-neroreflex-api-headers-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
 tar --zstd -xvf linux-neroreflex-headers-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
 sudo cp usr/src/linux-neroreflex/vmlinux /boot/vmlinuz-neroreflex-6.1.52
-sudo cp usr/lib/modules/6.1.52--valve14-chos2-xanmod1-neroreflex-1/modules.order /lib/modules/6.1.52-valve14-chos2-xanmod1-neroreflex-1/
+# sudo cp usr/lib/modules/6.1.52--valve14-chos2-xanmod1-neroreflex-1/modules.order /lib/modules/6.1.52-valve14-chos2-xanmod1-neroreflex-1/
 # sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # Download and build newest Rogue Enemy
