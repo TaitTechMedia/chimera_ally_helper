@@ -7,7 +7,7 @@ sudo true
 sudo frzr-unlock
 
 # Install necessary dependencies
-sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+sudo pacman -S install build-essential libncurses-dev bison flex libssl-dev libelf-dev
 
 # Download the kernel and necessary headers
 cd ~/Downloads
@@ -68,6 +68,9 @@ curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
 
 # Install ROG Control Center
 yay -S rog-control-center
+
+# Run system update
+sudo pacman -Syu
 
 # Reboot
 input ("Installation Complete: Are you read to reboot your machine?")
