@@ -17,12 +17,12 @@ cd ~/Downloads
 tar --zstd -xvf linux-neroreflex-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
 tar --zstd -xvf linux-neroreflex-api-headers-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
 tar --zstd -xvf linux-neroreflex-headers-6.1.52.nrflx1-1-x86_64.pkg.tar.zst
-sudo cp usr/lib/modules/6.1.52--valve14-chos2-xanmod1-neroreflex-1/vmlinux /boot/vmlinuz-6.1.52--valve14-chos2-xanmod1-neroreflex-1
+sudo cp usr/src/linux-neroreflex/vmlinux /boot/vmlinuz-neroreflex-6.1.52
 sudo cp usr/lib/modules/6.1.52--valve14-chos2-xanmod1-neroreflex-1/modules.order /lib/modules/6.1.52-valve14-chos2-xanmod1-neroreflex-1/
-mkinitcpio -k 6.1.52-valve14-chos2-xanmod1-neroreflex-1 -g /boot/initramfs-6.1.52-valve14-chos2-xanmod1-neroreflex-1.img
-sudo grub-mkconfig -o /boot/grub/grub.cfg
+# sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # Download and build newest Rogue Enemy
+cd ~/Downloads
 git clone https://github.com/NeroReflex/ROGueENEMY
 cd ROGueENEMY
 mkdir build
