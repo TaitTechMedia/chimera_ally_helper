@@ -2,10 +2,13 @@
 This is a simple script to simplify installation of the latest needed tools to get Chimera tuned up correctly on the ROG Ally. None of these are my patches or my work, so all credit goes to the community and the creators of these tools.
 
 ## Installation
-Open a terminal and run these commands. It will ask you for your password.
-    `bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/terminal.sh)`
-    `bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/upgrade.sh)`
-    `bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/install.sh)`
+Open a terminal and run these commands. It will ask you for your password. This is "gamer"
+
+`bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/terminal.sh)`
+
+`bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/upgrade.sh)`
+
+`bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/install.sh)`
 
 # Note about TDP
 DON'T USE BUILT IN TDP LIMITER - USE THE SIMPLEDECKYTDP MENU TO CONTROL TDP
