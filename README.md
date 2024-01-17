@@ -1,15 +1,10 @@
 # Chimera Ally Helper
 This is a simple script to simplify installation of the latest needed tools to get Chimera tuned up correctly on the ROG Ally. None of these are my patches or my work, so all credit goes to the community and the creators of these tools.
 
-## This script does a few things
-1) Installs custom kernel 6.1.52.nrflx1-1 from NeroReflex
-2) Installs latest Rogue Enemy
-3) Installs Deckyloader and DeckySimpleTDP
-4) Installs Asusctl
-5) Reboots ROG Ally
-
 ## Installation
-Open a terminal and run this command. It will ask you for your password.
+Open a terminal and run these commands. It will ask you for your password.
+    `bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/terminal.sh)`
+    `bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/upgrade.sh)`
     `bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/install.sh)`
 
 # Note about TDP
