@@ -55,8 +55,9 @@ fi
 current_brightness=\$(cat "\$KB_BRIGHTNESS_FILE")
 
 # Decrease and then increase the brightness
+sleep 3
 echo \$((current_brightness - 1)) > "\$KB_BRIGHTNESS_FILE"
-sleep 1
+sleep 3
 echo \$((current_brightness)) > "\$KB_BRIGHTNESS_FILE"
 EOF
 
