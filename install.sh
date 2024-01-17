@@ -20,7 +20,7 @@ cat <<EOT > ~/.config/autostart/steam.desktop
 [Desktop Entry]
 Type=Application
 Name=Steam
-Exec=steam -silent
+Exec=steam -silent -forcecontrollerappid 413080
 X-GNOME-Autostart-enabled=true
 EOT
 
