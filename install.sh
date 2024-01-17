@@ -16,11 +16,13 @@ curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/dow
 curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
 
 # Set up steam AutoStart
-echo "[Desktop Entry]
+cat <<EOT > ~/.config/autostart/steam.desktop
+[Desktop Entry]
 Type=Application
 Name=Steam
 Exec=steam -silent
-X-GNOME-Autostart-enabled=true" > ~/.config/autostart/steam.desktop
+X-GNOME-Autostart-enabled=true
+EOT
 
 # Make the .desktop file executable
 chmod +x ~/.config/autostart/steam.desktop
