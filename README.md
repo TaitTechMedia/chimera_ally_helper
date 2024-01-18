@@ -1,6 +1,9 @@
 # Chimera Ally Helper
 This is a simple script to simplify installation of the latest needed tools to get Chimera tuned up correctly on the ROG Ally. None of these are my patches or my work, so all credit goes to the community and the creators of these tools.
 
+## NOTICE:
+It is important to note that this is highly experimental and can result in a ssytem that does not boot into the UI. This is meant for users who are okay trying high experimental software.
+
 ## Installation
 Open a terminal and run these commands. It will ask you for your password. This is "gamer"
 
