@@ -6,6 +6,8 @@ Open a terminal and run these commands. It will ask you for your password. This 
 
 `bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/terminal.sh)`
 
+*Open up software center and install Konsole now in order to run the following commands*
+
 `bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/upgrade.sh)`
 
 `bash <(curl -sSL https://raw.githubusercontent.com/TaitTechMedia/chimera_ally_helper/main/install.sh)`
